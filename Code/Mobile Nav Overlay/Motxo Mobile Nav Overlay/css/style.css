@@ -3,6 +3,7 @@
 html, body {
     height: 100%;
     margin: 0;
+    font-family: "Josefin Slab";
 }
 
 .home-bg {
@@ -121,3 +122,8 @@ hr.btm{
    margin: 0 auto;
    padding: 0 25px 0 25px;
 }
+
+.menu-section-title {
+    font-size: 30px;
+}
+

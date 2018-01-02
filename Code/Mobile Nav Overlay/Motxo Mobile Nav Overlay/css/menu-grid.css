@@ -1,0 +1,45 @@
+.menu-container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+.menu-section-title {
+	margin: 30px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+	border-top: silver 1px solid;
+	border-bottom: 1px silver solid;
+}
+
+.m-s-t-1 {
+	margin-top: 80px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+ .menu-item,
+ .menu-item-name,
+ .menu-item-description,
+ .menu-item-price {
+ 	width: 100%;
+ 	padding-top: 20px;
+ 	text-align: center;
+ }
+
+ .menu-item-name,
+ .menu-item-description,
+ .menu-item-price,
+ .wine-name,
+ .glass-price,
+ .half-liter-price,
+ .liter-price {
+ 	padding-top: 10px;
+ }
+
+
+.menu-item-name {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
