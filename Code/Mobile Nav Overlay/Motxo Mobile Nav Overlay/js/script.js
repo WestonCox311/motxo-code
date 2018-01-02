@@ -13,7 +13,6 @@
         strokes[1].classList.toggle("hide");
         strokes[2].classList.toggle("animate2");
         fullscreenmenu.classList.toggle("show");
-
     }
     
     icon.addEventListener("click", transformStart);

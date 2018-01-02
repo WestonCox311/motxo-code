@@ -4,6 +4,7 @@ html, body {
     height: 100%;
     margin: 0;
     font-family: "Josefin Slab";
+    box-sizing: border-box;
 }
 
 .home-bg {
@@ -15,13 +16,31 @@ html, body {
 }
 
 header{
+    height: 10%;
     width: 100%;
+    background-color: rgba(47, 70, 79, .95);
 }
+
+
+.photo-container {
+    width: 100%;
+    height: 30%;
+    background-image: linear-gradient(rgba(47, 70, 79, .55), rgba(47, 70, 79, .55)), url('../images/bar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo-container h1 {
+    color: white;
+    font-size: 8rem;
+    text-align: center;
+}
+
 nav.menu{
     width: 42px;
     height: 42px;
     float: right;
-    margin: 40px 35px 0 0;
+    margin: 20px 30px 0 0;
     position: relative;
     z-index: 999;
     cursor: pointer;
@@ -49,28 +68,38 @@ nav.menu div.strokes {
 }
 
 .fullscreenmenu{
-    background-color: rgba(52, 152, 219, 0);
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    position: absolute;
-    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    overflow: hidden;
     -webkit-transition: background 0.5s ease-in-out, opacity 0.5s;
     -moz-transition: background 0.5s ease-in-out, opacity 0.5s;
     -ms-transition: background 0.5s ease-in-out, opacity 0.5s;
     -o-transition: background 0.5s ease-in-out, opacity 0.5s;
     transition: background 0.5s ease-in-out, opacity 0.5s;
-    text-align: center
+    text-align: center;
+    
 }
+
 .fullscreenmenu.show{
-    opacity: 1;
-    background-color: rgba(47, 70, 79, .70);
-    -webkit-transition: background 0.5s ease-in-out, visibility 0.5s;
-    -moz-transition: background 0.5s ease-in-out, visibility 0.5s;
-    -ms-transition: background 0.5s ease-in-out, visibility 0.5s;
-    -o-transition: background 0.5s ease-in-out, visibility 0.5s;
-    transition: background 0.5s ease-in-out, visibility 0.5s;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    overflow: hidden;
+    visibility: visible;
+    background-color: rgba(47, 70, 79, .95);
+    -webkit-transition: background 0.15s ease-in-out, visibility 0.25s;
+    -moz-transition: background 0.15s ease-in-out, visibility 0.25s;
+    -ms-transition: background 0.15s ease-in-out, visibility 0.25s;
+    -o-transition: background 0.15s ease-in-out, visibility 0.25s;
+    transition: background 0.15s ease-in-out, visibility 0.25s;
+    
 }
 
 .fullscreenmenu ul {
@@ -127,3 +156,7 @@ hr.btm{
     font-size: 30px;
 }
 
+.backgroundcontent {
+    height: 100vh;
+    overflow: hidden;
+}
