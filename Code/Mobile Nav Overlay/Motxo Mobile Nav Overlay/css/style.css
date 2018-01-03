@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:400,600|Port+Lligat+Sans|Port+Lligat+Slab');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700|Port+Lligat+Sans|Port+Lligat+Slab');
 
 html, body {
     margin: 0;
@@ -16,7 +16,7 @@ html, body {
 }
 
 header{
-    height: 10vh;
+    height: 8vh;
     width: 100%;
     background-color: rgba(47, 70, 79, .95);
 }
@@ -157,11 +157,6 @@ hr.btm{
    padding: 0 25px 0 25px;
 }
 
-.menu-section-title {
-    font-size: 2rem;
-    font-family: 'Port Lligat Slab';
-}
-
 .backgroundcontent {
     height: 100vh;
     overflow: hidden;
@@ -176,8 +171,8 @@ hr.btm{
 --------------------------
 ------------------------*/
 
-.menu-item-name {
-    font-weight: 400;
+.menu-item-name{
+    font-weight: 600;
     font-size: 1.25rem;
 }
 
@@ -187,7 +182,20 @@ hr.btm{
 }
 
 .menu-section-title {
-    margin: 20px 30vw 2vh 30vw;
+    font-size: 2rem;
+    font-family: 'Port Lligat Slab', sans-serif;
+    margin: 2vh 30vw 2.5vh 30vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-top: 1px  silver solid;
+    border-bottom: 1px silver solid;
+}
+
+.menu-section-title-1 {
+    font-size: 2rem;
+    font-family: 'Port Lligat Slab', sans-serif;
+    margin: 2vh 30vw 1vh 30vw;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
@@ -211,10 +219,26 @@ hr.btm{
     padding-top: 10px;
  }
 
+ .menu-item-kali{
+    font-weight: 600;
+    font-size: 1.25rem;
+    width: 100%;
+    text-align: center;
+ }
+
 .kali-description {
     line-height: 1.5;
 }
 
+.wine-title,
+.glass-title,
+.half-liter-title,
+.liter-title,
+.beer-title,
+.beer-glass-title,
+.beer-liter-title {
+    font-weight: 700;
+}
 
 /*----------------
 ------------------
@@ -243,7 +267,7 @@ hr.btm{
     grid-template-columns: 60vw 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-row-gap: 3vh;
-    padding-bottom: 5vh;
+    padding-bottom: 2vh;
 }
 
 
@@ -260,5 +284,6 @@ hr.btm{
     grid-row-gap: 3vh;
     padding-bottom: 5vh;
 }
+
 
 
