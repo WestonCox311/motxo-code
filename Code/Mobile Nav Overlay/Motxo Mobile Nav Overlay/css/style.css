@@ -16,7 +16,7 @@ html, body {
 }
 
 header{
-    height: 8vh;
+    min-height: 80px;
     width: 100%;
     background-color: rgba(47, 70, 79, .95);
 }
