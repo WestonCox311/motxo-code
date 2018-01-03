@@ -5,26 +5,30 @@
 
 
 .menu-section-title {
-	margin: 30px;
-	padding-top: 10px;
+	margin: 20px 30vw 2vh 30vw;
+	padding-top: 5px;
 	padding-bottom: 5px;
 	text-align: center;
-	border-top: silver 1px solid;
+	border-top: 1px  silver solid;
 	border-bottom: 1px silver solid;
+
 }
 
 .m-s-t-1 {
-	margin-top: 80px;
-	padding-top: 10px;
-	padding-bottom: 5px;
+	margin-top: 4vh;
+	padding-top: 1vh;
 }
 
+#m-i-t-1 {
+	padding-top: -2vh;
+
+}
  .menu-item,
  .menu-item-name,
  .menu-item-description,
  .menu-item-price {
  	width: 100%;
- 	padding-top: 20px;
+ 	padding-top: 1vh;
  	text-align: center;
  }
 
@@ -39,7 +43,3 @@
  }
 
 
-.menu-item-name {
-	font-size: 1.5rem;
-	font-weight: bold;
-}

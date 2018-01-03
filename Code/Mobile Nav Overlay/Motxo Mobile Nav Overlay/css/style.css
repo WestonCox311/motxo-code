@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Port+Lligat+Sans|Port+Lligat+Slab');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:400,600|Port+Lligat+Sans|Port+Lligat+Slab');
 
 html, body {
-    height: 100%;
+    
     margin: 0;
     font-family: "Josefin Slab";
     box-sizing: border-box;
+    background-color: rgba(214, 153, 81, .2);
 }
 
 .home-bg {
@@ -31,10 +32,15 @@ header{
 }
 
 .photo-container h1 {
-    color: white;
+    font-family: 'Port Lligat Slab';
+    color: rgba(214, 153, 81, 1);
     font-size: 8rem;
     text-align: center;
+    padding-top: 6vh;
+    text-shadow: 4px 3px 1px rgba(7, 70, 79, .55);
 }
+
+
 
 nav.menu{
     width: 42px;
@@ -93,7 +99,7 @@ nav.menu div.strokes {
     z-index: 10;
     overflow: hidden;
     visibility: visible;
-    background-color: rgba(47, 70, 79, .95);
+    background-color: rgba(47, 70, 79, .97);
     -webkit-transition: background 0.15s ease-in-out, visibility 0.25s;
     -moz-transition: background 0.15s ease-in-out, visibility 0.25s;
     -ms-transition: background 0.15s ease-in-out, visibility 0.25s;
@@ -153,10 +159,16 @@ hr.btm{
 }
 
 .menu-section-title {
-    font-size: 30px;
+    font-size: 2rem;
+    font-family: 'Port Lligat Slab';
 }
 
 .backgroundcontent {
     height: 100vh;
     overflow: hidden;
+}
+
+.menu-item-name {
+    font-weight: 400;
+    font-size: 1.25rem;
 }
