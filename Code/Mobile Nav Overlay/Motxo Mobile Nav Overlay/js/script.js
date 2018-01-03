@@ -17,5 +17,6 @@
     
     icon.addEventListener("click", transformStart);
 
-})();
+})()
+
 

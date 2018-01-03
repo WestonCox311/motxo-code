@@ -3,9 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Info | Motxo</title>
+	<title>Location | Motxo</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mapstyle.css">
 </head>
 <body>
 	<header>
@@ -16,9 +17,9 @@
         </nav>
 	</header>
 	<div class="fullscreenmenu">
-        <ul>
-            <a href="index.html"><img class="motxo-logo-overlay" src="images/motxo-text-logo.png" alt="Motxo logo"></a>
-            
+        <ul> 
+            <a href="index.html"><img class="motxo-logo-overlay" src="images/motxo-text-logo.png" alt="Motxo logo"></a> 
+           
             <li><a href="food.html">food</a></li>
     
             <li><a href="drinks.html">drinks</a></li>
@@ -28,20 +29,24 @@
             <li><a href="info.html">info</a></li>
         </ul>
     </div>
+    <div class="fullscreenmap">
+        <div id="map-container">
+            <img src="images/map.png" alt="map">
+        </div>
 
 
-    RESERVATIONS 
 
-    CURRENCIES ACCEPTED
 
-    HOURS 
 
-    LOCATION
+    </div>
+
+    <button class="button" type="button">Click Me!</button>
 
     <footer>
     </footer>
 
 	<script src="js/script.js"></script>
   <script src="https://use.fontawesome.com/601bfbc52b.js"></script>
+  <script src="js/map.js"></script>
 </body>
 </html>
